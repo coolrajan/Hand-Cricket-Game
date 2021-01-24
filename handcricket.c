@@ -15,7 +15,6 @@ int main()
     printf("Following are the choices:\n");
     printf("1)Limited Overs\n");
     printf("2)Till one player gets out\n");
-    printf("3)Exit\n");
     printf("Enter your choice:");
     scanf("%d",&choice);
     if(choice==1)
@@ -25,8 +24,6 @@ int main()
                   }
     else if(choice==2)
                       printf("Not Completed,will update soon\n");
-    else
-                 printf("Game over\n");
     return 0;
 }
 void limover(char playername_1[30],char playername_2[30],int overs)
